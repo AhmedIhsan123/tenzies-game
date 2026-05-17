@@ -32,6 +32,7 @@ main {
 	border-radius: 5px;
 	height: 100%;
 	padding: 1rem;
+	gap: 2rem;
 }
 
 /* Die styles */
@@ -52,5 +53,19 @@ main {
 	align-items: center;
 	font-family: Iter, sans-serif;
 	cursor: pointer;
+	font-weight: 800;
+}
+
+/* Roll styles */
+.roll-btn {
+	width: 120px;
 	font-weight: 600;
+	padding: 0.5rem;
+	color: white;
+	background-color: purple;
+	border: none;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
 }
